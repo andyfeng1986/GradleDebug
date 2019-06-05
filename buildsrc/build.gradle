@@ -1,0 +1,12 @@
+apply plugin: 'groovy'
+
+repositories {
+    google()
+    jcenter()
+}
+
+dependencies {
+    compile gradleApi()
+    compile localGroovy()
+    compile 'com.android.tools.build:gradle:3.3.2'
+}
